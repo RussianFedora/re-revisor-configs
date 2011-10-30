@@ -1,0 +1,4 @@
+You only need to change the installclasses/scientific.py file to change the name and other default initial options.
+
+Change locations.include as needed for your SPIN.  This file defines
+directory locations and version numbers  .

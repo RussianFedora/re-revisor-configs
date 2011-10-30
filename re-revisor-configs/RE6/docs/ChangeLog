@@ -1,0 +1,8 @@
+Mon Jul 11 13:25:18 CDT 2011
+- Added iso_label and iso_basename to revisor.conf entries
+- Changed all configurations in conf.d to be 6x instead of 6.0
+- Copied ks/sl6.match.tuv.install.dvd.*.ks to ks/sl6.match.tuv.install.dvd.*.60.ks
+- Updated ks/sl6.match.tuv.install.dvd.*.ks to match 6.1
+- Copied ks/sl6.all.groups.ks to ks/sl6.all.groups.60.ks
+- Updated ks/sl6.all.groups.ks to match SL 6.1 groups
+
