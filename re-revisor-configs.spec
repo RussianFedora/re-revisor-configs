@@ -11,6 +11,8 @@ BuildArch:  noarch
 
 Conflicts:  sl-revisor-configs
 
+Requires:   revisor
+
 %description
 Kickstarts and config files used to create customized  spins
 and the official SL 6 Spins and RERemix Linux Desktop.
