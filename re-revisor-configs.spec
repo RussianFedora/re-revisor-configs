@@ -127,9 +127,13 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/revisor/RE6/images/*.img
 %config(noreplace) %{_sysconfdir}/revisor/RE6/build/scripts/locations.include
 
+%{_sysconfdir}/revisor/SL6/docs/*
 %{_sysconfdir}/revisor/SL6/build/scripts/*.sh
 %{_sysconfdir}/revisor/SL6/build/scripts/product/installclasses/*
 %{_sysconfdir}/revisor/SL6/build/scripts/anacondaupdates/*
+%{_sysconfdir}/revisor/RE6/build/scripts/*.sh
+%{_sysconfdir}/revisor/RE6/build/scripts/product/installclasses/*
+%{_sysconfdir}/revisor/RE6/build/scripts/anacondaupdates/*
 
 %changelog
 * Sun Oct 30 2011 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.1-1.R
