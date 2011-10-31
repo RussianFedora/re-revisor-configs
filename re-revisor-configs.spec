@@ -1,6 +1,6 @@
 Name:       re-revisor-configs
 Version:    6.1
-Release:    1%{?dist}.R
+Release:    1%{?dist}.1.R
 License:    GPLv2+
 Summary:    Kickstart and config files for creating your own SL/RERemix Spins
 Group:      Applications/System
@@ -9,9 +9,10 @@ Source0:    %{name}-%{version}.tar.bz2
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:  noarch
 
-Conflicts:  sl-revisor-configs
+Provides:   sl-revisor-configs
+Obsoletes:  sl-revisor-configs
 
-Requires:   revisor
+Requires:   revisor-cli
 
 %description
 Kickstarts and config files used to create customized  spins
@@ -136,6 +137,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/revisor/RE6/build/scripts/anacondaupdates/*
 
 %changelog
+* Mon Oct 31 2011 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.1-1.1.R
+- added P: and O: sl-revisor-configs
+- added R: revisor-cli
+
 * Sun Oct 30 2011 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.1-1.R
 - initial build of package for building RERemix Linux Desktop
 
