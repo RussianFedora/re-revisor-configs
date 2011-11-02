@@ -1,6 +1,6 @@
 Name:       re-revisor-configs
-Version:    6.1
-Release:    1%{?dist}.1.R
+Version:    6.1.1
+Release:    1%{?dist}.R
 License:    GPLv2+
 Summary:    Kickstart and config files for creating your own SL/RERemix Spins
 Group:      Applications/System
@@ -137,6 +137,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/revisor/RE6/build/scripts/anacondaupdates/*
 
 %changelog
+* Wed Nov  2 2011 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.1.1-1.R
+- do not install general-desktop for KDE and XFCE
+
 * Mon Oct 31 2011 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.1-1.1.R
 - added P: and O: sl-revisor-configs
 - added R: revisor-cli
