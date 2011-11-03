@@ -105,6 +105,8 @@ class InstallClass(RHELInstallClass):
                                                 "Red Hat Enterprise Linux Desktop",
                                                 "Red Hat Enterprise Linux"),
             "Scientific Linux": ("Scientific Linux"),
+            "RERemix": ("RERemix"),
+            "RERemix Linux Desktop": ("RERemix Linux Desktop"),
         }
 
         if productUpgrades.has_key(productName):
