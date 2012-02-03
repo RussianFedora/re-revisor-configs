@@ -1,5 +1,5 @@
 Name:       re-revisor-configs
-Version:    6.2.0
+Version:    6.2.1
 Release:    1%{?dist}.R
 License:    GPLv2+
 Summary:    Kickstart and config files for creating your own SL/RERemix Spins
