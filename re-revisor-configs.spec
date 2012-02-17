@@ -1,5 +1,5 @@
 Name:       re-revisor-configs
-Version:    6.2.1
+Version:    6.2.2
 Release:    1%{?dist}.R
 License:    GPLv2+
 Summary:    Kickstart and config files for creating your own SL/RERemix Spins
@@ -137,6 +137,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/revisor/RE6/build/scripts/anacondaupdates/*
 
 %changelog
+* Fri Feb 17 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.2-1.R
+- added languages and virtualisation
+
 * Sat Jan 28 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.0-1.R
 - update for 6.2
 
