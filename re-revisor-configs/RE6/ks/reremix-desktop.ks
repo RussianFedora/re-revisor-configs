@@ -189,6 +189,8 @@ virt-v2v
 @xhosa-support
 @zulu-support
 
+kde-l10n-*
+
 puias-release
 @addons-video
 @addons-audio
