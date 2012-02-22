@@ -37,7 +37,6 @@ thunderbird
 @office-suite
 @print-client
 @remote-desktop-clients
-#@russian-support
 @server-platform
 @kde-desktop
 @xfce-desktop
@@ -241,4 +240,7 @@ kmod-w83627ehf
 
 flash-plugin
 evince-djvu-backend
+chromium
+mplayer2
+mencoder
 %end

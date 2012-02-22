@@ -139,6 +139,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Fri Feb 17 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.2-1.R
 - added languages and virtualisation
+- added chromium
 
 * Sat Jan 28 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.0-1.R
 - update for 6.2
