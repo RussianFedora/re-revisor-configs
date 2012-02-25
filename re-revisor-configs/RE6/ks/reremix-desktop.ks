@@ -243,4 +243,5 @@ evince-djvu-backend
 chromium
 mplayer2
 mencoder
+remmina
 %end
