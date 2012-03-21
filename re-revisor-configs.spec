@@ -1,6 +1,6 @@
 Name:       re-revisor-configs
 Version:    6.2.3
-Release:    1%{?dist}
+Release:    2%{?dist}
 License:    GPLv2+
 Summary:    Kickstart and config files for creating your own SL/RERemix Spins
 Group:      Applications/System
@@ -137,6 +137,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/revisor/RE6/build/scripts/anacondaupdates/*
 
 %changelog
+* Wed Mar 21 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.3-2.R
+- really disable local ftp repos
+
 * Wed Mar 21 2012 Arkady L. Shane <ashejn@ussianfedora.ru> - 6.2.3-1.R
 - fix release
 - disable local ftp repo
