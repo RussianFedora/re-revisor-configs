@@ -124,7 +124,6 @@ virt-v2v
 @konkani-support
 @korean-support
 @kurdish-support
-@language-support
 @lao-support
 @latin-support
 @latvian-support
